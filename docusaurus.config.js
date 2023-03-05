@@ -9,7 +9,7 @@ const TwitterSvg =
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus Boilerplate',
+  title: 'Decoupled Saas',
   tagline: 'Dinosaurs are cool',
   url: 'http://docusaurus-boilerplate.vercel.app',
   baseUrl: '/',
@@ -217,7 +217,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Docusaurus Boilerplate. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Decoupled Saas`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -229,8 +229,8 @@ const config = {
         respectPrefersColorScheme: true,
       },
       announcementBar: {
-        id: 'announcementBar-0', // Increment on change
-        content: `⭐️ If you like this Docusaurus Boilerplate, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/arisac/docusaurus-boilerplate">GitHub</a> and follow me on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/arisdotac" >${TwitterSvg} Twitter</a>`,
+        id: 'announcementBar-1', // Increment on change
+        content: `⭐️ If you like this Boilerplate, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/decoupled-saas/docs">GitHub</a>`,
         isCloseable: true,
       },
       docs: {
